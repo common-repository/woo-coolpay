@@ -1,0 +1,853 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: WooCommerce CoolPay\n"
+"POT-Creation-Date: 2018-11-08 15:17+0100\n"
+"PO-Revision-Date: 2016-06-21 13:16+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: woocommerce-coolpay.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/api/woocommerce-coolpay-api-transaction.php:67
+msgid "Pending - check your CoolPay manager"
+msgstr ""
+
+#: classes/api/woocommerce-coolpay-api-transaction.php:346
+msgid "Transaction ID cannot be empty"
+msgstr ""
+
+#: classes/emails/woocommerce-coolpay-payment-link-email.php:13
+msgid "Payment link created"
+msgstr ""
+
+#: classes/emails/woocommerce-coolpay-payment-link-email.php:14
+msgid "This e-mail is sent upon manual payment link creation by a shop admin."
+msgstr ""
+
+#: classes/emails/woocommerce-coolpay-payment-link-email.php:93
+msgid "Enable/Disable"
+msgstr ""
+
+#: classes/emails/woocommerce-coolpay-payment-link-email.php:95
+msgid "Enable this email notification"
+msgstr ""
+
+#: classes/emails/woocommerce-coolpay-payment-link-email.php:99
+msgid "Subject"
+msgstr ""
+
+#: classes/emails/woocommerce-coolpay-payment-link-email.php:103
+#: classes/emails/woocommerce-coolpay-payment-link-email.php:112
+#, php-format
+msgid "Available placeholders: %s"
+msgstr ""
+
+#: classes/emails/woocommerce-coolpay-payment-link-email.php:108
+msgid "Email heading"
+msgstr ""
+
+#: classes/emails/woocommerce-coolpay-payment-link-email.php:117
+msgid "Email type"
+msgstr ""
+
+#: classes/emails/woocommerce-coolpay-payment-link-email.php:119
+msgid "Choose which format of email to send."
+msgstr ""
+
+#: classes/emails/woocommerce-coolpay-payment-link-email.php:135
+msgid "Payment link for your order ({order_number})"
+msgstr ""
+
+#: classes/emails/woocommerce-coolpay-payment-link-email.php:145
+msgid "This is your payment link"
+msgstr ""
+
+#: classes/instances/instance.php:57
+#, php-format
+msgid "Allows you to receive payments via CoolPay %s."
+msgstr ""
+
+#: classes/instances/instance.php:58
+msgid "This module has it's main configuration inside the 'CoolPay' tab."
+msgstr ""
+
+#: classes/instances/instance.php:59
+#, php-format
+msgid "Click <a href=\"%s\">here</a> to access the main configuration."
+msgstr ""
+
+#: classes/instances/klarna.php:36 classes/instances/mobilepay.php:36
+#: classes/instances/sofort.php:36 classes/instances/viabill.php:36
+#: classes/woocommerce-coolpay-settings.php:26
+#: classes/woocommerce-coolpay-settings.php:56
+#: classes/woocommerce-coolpay-settings.php:64
+#: classes/woocommerce-coolpay-settings.php:90
+#: classes/woocommerce-coolpay-settings.php:147
+#: classes/woocommerce-coolpay-settings.php:155
+#: classes/woocommerce-coolpay-settings.php:269
+#: classes/woocommerce-coolpay-settings.php:304
+#: classes/woocommerce-coolpay-settings.php:350
+msgid "Enable"
+msgstr ""
+
+#: classes/instances/klarna.php:38
+msgid "Enable Klarna payment"
+msgstr ""
+
+#: classes/instances/klarna.php:43 classes/instances/mobilepay.php:43
+#: classes/instances/sofort.php:43 classes/instances/viabill.php:43
+#: classes/woocommerce-coolpay-settings.php:174
+msgid "Shop setup"
+msgstr ""
+
+#: classes/instances/klarna.php:46 classes/instances/mobilepay.php:46
+#: classes/instances/sofort.php:46 classes/instances/viabill.php:46
+#: classes/woocommerce-coolpay-settings.php:177
+msgid "Title"
+msgstr ""
+
+#: classes/instances/klarna.php:48 classes/instances/mobilepay.php:48
+#: classes/instances/sofort.php:48 classes/instances/viabill.php:48
+#: classes/woocommerce-coolpay-settings.php:179
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: classes/instances/klarna.php:49
+msgid "Klarna"
+msgstr ""
+
+#: classes/instances/klarna.php:52 classes/instances/mobilepay.php:52
+#: classes/instances/sofort.php:52 classes/instances/viabill.php:52
+#: classes/woocommerce-coolpay-settings.php:184
+msgid "Customer Message"
+msgstr ""
+
+#: classes/instances/klarna.php:54 classes/instances/mobilepay.php:54
+#: classes/instances/sofort.php:54 classes/instances/viabill.php:54
+#: classes/woocommerce-coolpay-settings.php:186
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: classes/instances/klarna.php:55
+msgid "Pay with Klarna"
+msgstr ""
+
+#: classes/instances/mobilepay.php:38
+msgid "Enable MobilePay payment"
+msgstr ""
+
+#: classes/instances/mobilepay.php:49
+msgid "MobilePay"
+msgstr ""
+
+#: classes/instances/mobilepay.php:55 classes/instances/sofort.php:55
+msgid "Pay with your mobile phone"
+msgstr ""
+
+#: classes/instances/sofort.php:38
+msgid "Enable Sofort payment"
+msgstr ""
+
+#: classes/instances/sofort.php:49
+msgid "Sofort"
+msgstr ""
+
+#: classes/instances/viabill.php:38
+msgid "Enable ViaBill payment"
+msgstr ""
+
+#: classes/instances/viabill.php:49
+msgid "ViaBill"
+msgstr ""
+
+#: classes/instances/viabill.php:55
+msgid "Pay with ViaBill"
+msgstr ""
+
+#: classes/modules/woocommerce-coolpay-admin-orders.php:46
+#, php-format
+msgid "Payment links created for %d orders."
+msgstr ""
+
+#: classes/modules/woocommerce-coolpay-admin-orders.php:78
+#, php-format
+msgid "Payment links created for %d subscriptions."
+msgstr ""
+
+#: classes/modules/woocommerce-coolpay-admin-orders.php:103
+#, php-format
+msgid "Payment link creation skipped for order #%s"
+msgstr ""
+
+#: classes/modules/woocommerce-coolpay-admin-orders.php:118
+msgid "A parent order must be mapped to the subscription."
+msgstr ""
+
+#: classes/modules/woocommerce-coolpay-admin-orders.php:139
+#, php-format
+msgid "Invalid payment link received from API for order #%s"
+msgstr ""
+
+#: classes/modules/woocommerce-coolpay-admin-orders.php:153
+#, php-format
+msgid "Payment link manually created from backend: %s"
+msgstr ""
+
+#: classes/modules/woocommerce-coolpay-admin-orders.php:159
+#, php-format
+msgid "Payment link could not be created for order #%s. Error: %s"
+msgstr ""
+
+#: classes/modules/woocommerce-coolpay-admin-orders.php:171
+#: classes/modules/woocommerce-coolpay-admin-orders.php:184
+msgid "Create payment link"
+msgstr ""
+
+#: classes/woocommerce-coolpay-exceptions.php:81
+#, php-format
+msgid ""
+"An error occured. For more information check out the <strong>%s</strong> "
+"logs inside <strong>WooCommerce -> System Status -> Logs</strong>."
+msgstr ""
+
+#: classes/woocommerce-coolpay-install.php:156
+msgid "You are not authorized to perform this action"
+msgstr ""
+
+#: classes/woocommerce-coolpay-order.php:193
+msgid "Payment Fee"
+msgstr ""
+
+#: classes/woocommerce-coolpay-order.php:664
+msgid "Customer Email"
+msgstr ""
+
+#: classes/woocommerce-coolpay-order.php:669
+msgid "Customer Phone"
+msgstr ""
+
+#: classes/woocommerce-coolpay-order.php:674
+msgid "User Agent"
+msgstr ""
+
+#: classes/woocommerce-coolpay-order.php:679
+msgid "Shipping Method"
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:28
+msgid "Enable CoolPay Payment"
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:34
+msgid "API - Integration"
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:38
+#: classes/woocommerce-coolpay-settings.php:371
+msgid "Private key"
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:40
+msgid ""
+"Your agreement private key. Found in the \"Integration\" tab inside the "
+"CoolPay manager."
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:44
+#: classes/woocommerce-coolpay-settings.php:372
+msgid "Api User key"
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:46
+msgid ""
+"Your API User's key. Create a separate API user in the \"Users\" tab inside "
+"the CoolPay manager."
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:51
+msgid "Autocapture settings"
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:54
+msgid "Physical products (default)"
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:57
+msgid "Automatically capture payments on physical products."
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:62
+msgid "Virtual products"
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:65
+msgid ""
+"Automatically capture payments on virtual products. If the order contains "
+"both physical and virtual products, this setting will be overwritten by the "
+"default setting above."
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:71
+msgid "Currency settings"
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:74
+msgid "Fixed Currency"
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:75
+msgid ""
+"Choose a fixed currency. Please make sure to use the same currency as in "
+"your WooCommerce currency settings."
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:88
+msgid "Auto Currency"
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:91
+msgid ""
+"Automatically checks out with the order currency. This setting overwrites "
+"the \"Fixed Currency\" setting."
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:97
+msgid "Extra gateway settings"
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:100
+msgid "Language"
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:101
+msgid "Payment Window Language"
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:117
+msgid "Currency"
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:118
+msgid ""
+"Choose your currency. Please make sure to use the same currency as in your "
+"WooCommerce currency settings."
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:131
+msgid "Payment methods"
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:133
+msgid ""
+"Default: creditcard. Type in the cards you wish to accept (comma separated). "
+"See the valid payment types here: <b>http://tech.coolpay.net/appendixes/"
+"payment-methods/</b>"
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:137
+msgid "Branding ID"
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:139
+msgid "Leave empty if you have no custom branding options"
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:145
+msgid "Enable autofee"
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:148
+msgid ""
+"If enabled, the fee charged by the acquirer will be calculated and added to "
+"the transaction amount."
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:153
+msgid "Capture on complete"
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:156
+msgid ""
+"When enabled coolpay payments will automatically be captured when order "
+"state is set to \"Complete\"."
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:161
+msgid "Text on statement"
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:163
+msgid ""
+"Text that will be placed on cardholder’s bank statement (currently only "
+"supported by Clearhaus)."
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:180
+msgid "CoolPay"
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:187
+msgid "Pay via CoolPay. Allows you to pay with your credit card via CoolPay."
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:191
+msgid "Order button text"
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:193
+msgid "Text shown on the submit button when choosing payment method."
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:194
+msgid "Go to payment"
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:198
+msgid "Email instructions"
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:200
+msgid "Instructions that will be added to emails."
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:205
+msgid "Credit card icons"
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:207
+msgid ""
+"Choose the card icons you wish to show next to the CoolPay payment option "
+"in your shop."
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:212
+msgid "Select icons"
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:244
+msgid "Credit card icons maximum height"
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:246
+msgid ""
+"Set the maximum pixel height of the credit card icons shown on the frontend."
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:252
+msgid "Google Analytics"
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:255
+msgid "Tracking ID"
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:257
+msgid "Your Google Analytics tracking ID. Digits only."
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:263
+msgid "Shop Admin Setup"
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:267
+msgid "Fetch Transaction Info"
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:270
+msgid "Show transaction information in the order overview."
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:277
+msgid "Custom Variables"
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:280
+msgid "Select Information"
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:285
+msgid ""
+"Selected options will store the specific data on your transaction inside "
+"your CoolPay Manager."
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:289
+msgid "Select order data"
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:302
+msgid "Complete renewal orders"
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:305
+msgid ""
+"Automatically mark a renewal order as complete on successful recurring "
+"payments."
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:326
+msgid "Billing: Complete Customer Details"
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:327
+msgid "Browser: User Agent"
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:328
+msgid "Customer: Email Address"
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:329
+msgid "Customer: Phone Number"
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:330
+msgid "Shipping: Complete Customer Details"
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:331
+msgid "Shipping: Shipping Method"
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:345
+msgid "Debug"
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:346
+msgid "Got problems? Check out the Wiki."
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:347
+msgid "View debug logs"
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:348
+msgid "Empty debug logs"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: classes/woocommerce-coolpay-settings.php:382
+msgid "WooCommerce CoolPay"
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:383
+#, php-format
+msgid ""
+"You have missing or incorrect settings. Go to the <a href=\"%s\">settings "
+"page</a>."
+msgstr ""
+
+#: classes/woocommerce-coolpay-settings.php:386
+#, php-format
+msgid "<strong>%s</strong> is mandatory."
+msgstr ""
+
+#: classes/woocommerce-coolpay-subscription.php:68
+msgid ""
+"Automatically completing order status due to succesful recurring payment"
+msgstr ""
+
+#: templates/woocommerce/emails/customer-coolpay-payment-link.php:27
+#: templates/woocommerce/emails/plain/customer-coolpay-payment-link.php:25
+#, php-format
+msgid "Hi %s,"
+msgstr ""
+
+#: templates/woocommerce/emails/customer-coolpay-payment-link.php:29
+#: templates/woocommerce/emails/plain/customer-coolpay-payment-link.php:27
+msgid "Thank you for your order."
+msgstr ""
+
+#: templates/woocommerce/emails/customer-coolpay-payment-link.php:32
+#: templates/woocommerce/emails/plain/customer-coolpay-payment-link.php:29
+#, php-format
+msgid "Use the following link to pay and complete your order: %s"
+msgstr ""
+
+#: templates/woocommerce/emails/customer-coolpay-payment-link.php:56
+#: templates/woocommerce/emails/plain/customer-coolpay-payment-link.php:54
+msgid "Thanks for shopping with us."
+msgstr ""
+
+#: views/bulk-actions.php:3
+msgid "Capture payment and activate subscription"
+msgstr ""
+
+#: views/html-notice-update.php:12 views/html-notice-upgrading.php:12
+msgid "WooCommerce CoolPay - Data Update"
+msgstr ""
+
+#: views/html-notice-update.php:13
+msgid ""
+"To ensure you get the best experience at all times, we need to update your "
+"store's database to the latest version."
+msgstr ""
+
+#: views/html-notice-update.php:14
+msgid "Run the updater"
+msgstr ""
+
+#: views/html-notice-update.php:19
+msgid ""
+"It is strongly recommended that you backup your database before proceeding. "
+"Are you sure you wish to run the updater now?"
+msgstr ""
+
+#: views/html-notice-update.php:30 views/html-notice-upgrading.php:13
+msgid ""
+"The upgrader is now running. This might take a while. The notice will "
+"disappear once the upgrade is complete."
+msgstr ""
+
+#: views/html-order-table-transaction-data.php:4
+msgid "ID"
+msgstr ""
+
+#: views/html-order-table-transaction-data.php:8
+msgid "Order ID"
+msgstr ""
+
+#: views/html-order-table-transaction-data.php:12
+msgid "Method"
+msgstr ""
+
+#: views/html-order-table-transaction-data.php:20
+msgid "This order has been paid with test card data!"
+msgstr ""
+
+#: views/html-order-table-transaction-data.php:21
+msgid "Test"
+msgstr ""
+
+#: views/html-order-table-transaction-data.php:27
+msgid ""
+"NB: The transaction data is served from cached results. Click to view the "
+"order and update the cached data."
+msgstr ""
+
+#: views/html-order-table-transaction-data.php:28
+msgid "Cached"
+msgstr ""
+
+#: woocommerce-coolpay.php:31
+msgid "WooCommerce CoolPay requires WooCommerce to be active."
+msgstr ""
+
+#: woocommerce-coolpay.php:32
+msgid "Go to the plugins page to activate WooCommerce"
+msgstr ""
+
+#: woocommerce-coolpay.php:294
+msgid "Settings"
+msgstr ""
+
+#: woocommerce-coolpay.php:601
+#, php-format
+msgid "No transaction ID for order: %s"
+msgstr ""
+
+#: woocommerce-coolpay.php:611
+msgid "A non-captured payment cannot be refunded."
+msgstr ""
+
+#: woocommerce-coolpay.php:613
+msgid "Transaction state does not allow refunds."
+msgstr ""
+
+#: woocommerce-coolpay.php:770
+msgid "CoolPay Transaction ID"
+msgstr ""
+
+#: woocommerce-coolpay.php:799
+#, php-format
+msgid "CoolPay Transaction ID updated from #%d to #%d"
+msgstr ""
+
+#: woocommerce-coolpay.php:865
+msgid ""
+"<p><strong>Payment failure</strong> A problem with your payment on order "
+"<strong>#%i</strong> occured. Please try again to complete your order.</p>"
+msgstr ""
+
+#: woocommerce-coolpay.php:872 woocommerce-coolpay.php:1122
+msgid "CoolPay Payment"
+msgstr ""
+
+#: woocommerce-coolpay.php:872
+msgid "Cancelled during process"
+msgstr ""
+
+#: woocommerce-coolpay.php:874
+msgid "Payment cancelled"
+msgstr ""
+
+#: woocommerce-coolpay.php:874
+msgid ""
+"Due to cancellation of your payment, the order process was not completed. "
+"Please fulfill the payment to complete your order."
+msgstr ""
+
+#: woocommerce-coolpay.php:874
+#, php-format
+msgid "<p><strong>%s</strong>: %s</p>"
+msgstr ""
+
+#: woocommerce-coolpay.php:929
+msgid "Payment cancelled."
+msgstr ""
+
+#: woocommerce-coolpay.php:934
+msgid "Payment captured."
+msgstr ""
+
+#: woocommerce-coolpay.php:938
+#, php-format
+msgid "Refunded %s %s"
+msgstr ""
+
+#: woocommerce-coolpay.php:954
+#, php-format
+msgid "Subscription authorized. Transaction ID: %s"
+msgstr ""
+
+#: woocommerce-coolpay.php:1000
+#, php-format
+msgid "An error occured while setting transaction id: %d on order %s. %s"
+msgstr ""
+
+#: woocommerce-coolpay.php:1010
+#, php-format
+msgid "Payment authorized. Transaction ID: %s"
+msgstr ""
+
+#: woocommerce-coolpay.php:1028
+#, php-format
+msgid "Transaction failed for #%s."
+msgstr ""
+
+#: woocommerce-coolpay.php:1029
+#, php-format
+msgid "CoolPay status code: %s."
+msgstr ""
+
+#: woocommerce-coolpay.php:1030
+#, php-format
+msgid "CoolPay status message: %s."
+msgstr ""
+
+#: woocommerce-coolpay.php:1031
+#, php-format
+msgid "Acquirer status code: %s"
+msgstr ""
+
+#: woocommerce-coolpay.php:1032
+#, php-format
+msgid "Acquirer status message: %s"
+msgstr ""
+
+#: woocommerce-coolpay.php:1049
+#, php-format
+msgid "Invalid callback body for order #%s."
+msgstr ""
+
+#: woocommerce-coolpay.php:1091
+msgid "Allows you to receive payments via CoolPay."
+msgstr ""
+
+#: woocommerce-coolpay.php:1126
+msgid "CoolPay Subscription"
+msgstr ""
+
+#: woocommerce-coolpay.php:1167 woocommerce-coolpay.php:1255
+msgid "Current payment state"
+msgstr ""
+
+#: woocommerce-coolpay.php:1170
+msgid "Actions"
+msgstr ""
+
+#: woocommerce-coolpay.php:1174 woocommerce-coolpay.php:1181
+msgid "You are about to CAPTURE this payment"
+msgstr ""
+
+#: woocommerce-coolpay.php:1174
+#, php-format
+msgid "Capture Full Amount (%s)"
+msgstr ""
+
+#: woocommerce-coolpay.php:1177
+msgid "Remaining balance"
+msgstr ""
+
+#: woocommerce-coolpay.php:1178
+msgid "Capture amount"
+msgstr ""
+
+#: woocommerce-coolpay.php:1181
+msgid "Capture Specified Amount"
+msgstr ""
+
+#: woocommerce-coolpay.php:1186
+msgid "You are about to CANCEL this payment"
+msgstr ""
+
+#: woocommerce-coolpay.php:1186
+msgid "Cancel"
+msgstr ""
+
+#: woocommerce-coolpay.php:1192 woocommerce-coolpay.php:1257
+msgid "Transaction ID"
+msgstr ""
+
+#: woocommerce-coolpay.php:1196 woocommerce-coolpay.php:1261
+msgid "Transaction Order ID"
+msgstr ""
+
+#: woocommerce-coolpay.php:1215
+msgid "Payment ID"
+msgstr ""
+
+#: woocommerce-coolpay.php:1220
+msgid "Payment Link"
+msgstr ""
+
+#: woocommerce-coolpay.php:1247
+msgid "subscription"
+msgstr ""
+
+#: woocommerce-coolpay.php:1306
+msgid "Payment"
+msgstr ""
+
+#: woocommerce-coolpay.php:1342
+msgid "Failed renewal"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/plugins/woocommerce-coolpay/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Integrates your CoolPay payment gateway into your WooCommerce installation."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Perfect Solution"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://perfect-solution.dk"
+msgstr ""

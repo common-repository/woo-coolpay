@@ -1,0 +1,241 @@
+.woocommerce-coolpay-capture {
+	color:#85ad74 !important;
+}
+.woocommerce-coolpay-subscribe {
+	color:#85ad74 !important;
+}
+
+.woocommerce-coolpay-cancel {
+	color:#ad74a2 !important;
+}
+
+.woocommerce-coolpay-authorize,
+.woocommerce-coolpay-recurring,
+.woocommerce-coolpay-refund {
+	color:#7499ad !important;
+}
+
+.woocommerce-coolpay-order-transaction-data table.meta tr td {
+	font-size: 11px;
+	color: #555;
+	padding: 0 !important;
+	line-height: 1.7em !important;
+}
+.woocommerce-coolpay-order-transaction-data table.meta tr td:first-child {
+	font-weight: 500;
+}
+
+.woocommerce-coolpay-order-transaction-data .transaction-brand img {
+	max-height: 16px;
+}
+
+.woocommerce-coolpay-order-transaction-data .tags {
+	margin-top: 5px;
+}
+
+.woocommerce-coolpay-order-transaction-data .tags:before,
+.woocommerce-coolpay-order-transaction-data .tags:after {
+	content: "";
+	display: table;
+}
+
+.woocommerce-coolpay-order-transaction-data .tag {
+	float: left;
+	display: inline-block;
+	padding: 7px 10px;
+	background-color: #e5e5e5;
+	color: #777;
+	font-size: 9px;
+	border-radius: 3px;
+	text-transform: uppercase;
+	line-height: 100%;
+}
+
+.woocommerce-coolpay-order-transaction-data .tag:not(:last-child) {
+	margin: 0 5px 5px 0;
+}
+
+.woocommerce-coolpay-order-transaction-data .tag.is-test {
+	background: #ebe9a3;
+	color: #78790b;
+	font-weight: bold;
+}
+
+.woocommerce-coolpay-order-transaction-data .tag.is-cancel {
+	background: #eba3a3;
+	color: #761919;
+	font-weight: bold;
+}
+
+.woocommerce-coolpay-order-transaction-data .tag.is-authorize,
+.woocommerce-coolpay-order-transaction-data .tag.is-recurring,
+.woocommerce-coolpay-order-transaction-data .tag.is-refund {
+	background: #c8d7e1;
+	color: #2e4453;
+}
+
+.woocommerce-coolpay-order-transaction-data .tag.is-capture,
+.woocommerce-coolpay-order-transaction-data .tag.is-subscribe {
+	background: #c6e1c6;
+	color: #5b841b;
+}
+
+.woocommerce-coolpay-order-transaction-data .meta:not(:last-child) {
+	margin-bottom: 3px;
+}
+
+.woocommerce-coolpay-order-transaction-data .transaction-brand img,
+.cp-meta-card img {
+	top: 4px;
+	position: relative;
+}
+
+.cp-meta-card img {
+	max-height: 20px;
+}
+
+.woocommerce-coolpay-order-transaction-data .transaction-brand img {
+	margin: -1px 3px 0 0 !important;
+	border-radius: 3px;
+}
+
+#coolpay-payment-actions {
+	position:relative;
+}
+
+#coolpay-payment-actions .left {
+	float:left;
+}
+#coolpay-payment-actions .right {
+	float:right;
+}
+
+#coolpay-payment-actions .loader {
+	position:absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	background: rgba( 255, 255, 255, 0.7 ) url('../images/loader.gif') no-repeat center center;
+	background-size: 50% ;
+}
+
+.coolpay-loader {
+    min-height:20px;
+	width:50px;
+	background: url('../images/loader.gif') no-repeat center center;
+	background-size: 100%;   
+}
+
+#coolpay-payment-actions h4 .inline_total {
+	float: right;
+	color: #999;
+}
+
+#coolpay-payment-actions b, #coolpay-payment-actions strong {
+	font-weight:700;
+}
+
+#coolpay-payment-actions .coolpay-split-container {
+	border-top: 1px solid #ddd;
+	margin: 0 -12px;
+	padding: 10px 10px 0;
+}
+
+#coolpay-payment-actions .warning {
+	color:#a00;
+}
+
+
+.cp-full-width, .cp-full-width .button {
+	width: 100%;
+	display: block;
+	text-align: center;
+	clear: both;
+}
+
+.cp-balance {
+	margin-bottom: 0;
+}
+
+.cp-balance.last {
+	margin-bottom: 5px;
+}
+
+.cp-balance:after {
+	clear: both;
+	content: "";
+	display: table;
+}
+
+.cp-balance__label,
+.cp-balance__amount {
+	background-color: #f9f9f9;
+	box-sizing: border-box;
+	float: left;
+	padding: 7px 10px;
+	text-transform: uppercase;
+	font-size: 10px;
+	color: #8a8a8a;
+}
+
+.cp-balance__label {
+	font-weight: bold;
+	width: 60%;
+	border-right: 2.5px solid #FFF;
+}
+.cp-balance__amount {
+	border-right: 0;
+	width: 40%;
+	border-left: 2.5px solid #FFF;
+	display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+	display: -ms-flexbox;  /* TWEENER - IE 10 */
+	display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+	display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+}
+
+.cp-balance__currency {
+	margin-right: 10px;
+}
+
+.cp-balance.last .cp-balance__currency {
+	margin-right: 0;
+}
+
+#cp-balance__amount-field {
+	width: 100%;
+	font-size: 10px;
+	margin-top: -5px;
+	top: 3px;
+	position: relative;
+	margin-left: 5px;
+}
+
+#wccp_wiki, #wccp_logs {
+	margin-right: 5px;
+}
+
+.wccp_api_indicator {
+	position: absolute;
+	display: inline-block;
+	width: 34px;
+	height: 34px;
+	border-radius: 50%;
+	margin-left: 10px;
+	top: -5px;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.wccp_api_indicator.error {
+	background-image: url(../images/icons/error.png);
+}
+.wccp_api_indicator.ok {
+	background-image: url(../images/icons/ok.png);
+}
+
+.woocommerce table.form-table fieldset:first-child {
+	position: relative;
+}
